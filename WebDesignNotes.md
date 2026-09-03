@@ -14,6 +14,8 @@ to add images you need the relative path IF the image is in the same folder or i
 
 the attribute for this element is src = "path/to/file"
 
+
+""""
 '''html
 <!DOCTYPE html>
 <html lang="en">
@@ -22,6 +24,7 @@ the attribute for this element is src = "path/to/file"
     <title> Code Block</title>
 <img src = "path/to/file">
 '''
+""""
 
 
 notice the path to file *IS IN QUOTES*.  That is important and must be done

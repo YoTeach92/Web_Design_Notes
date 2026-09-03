@@ -1,3 +1,13 @@
+
+'''html
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Code Block</title>
+    <img src = "path/to/file">
+'''
+
 Code{testing code type}
 # Heading 1 is <h1></h1>
 ## Heading 2 is <h2></h2>
@@ -15,16 +25,16 @@ to add images you need the relative path IF the image is in the same folder or i
 the attribute for this element is src = "path/to/file"
 
 
-""""
+
 '''html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title> Code Block</title>
-<img src = "path/to/file">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Code Block</title>
+    <img src = "path/to/file">
 '''
-""""
+
 
 
 notice the path to file *IS IN QUOTES*.  That is important and must be done

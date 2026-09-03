@@ -1,12 +1,12 @@
 
-'''html
+```html
     <!DOCTYPE html>
     <html lang="en">
     <head>
         <meta charset="UTF-8">
         <title> Code Block</title>
     <img src = "path/to/file">
-'''
+```
 
 Code{testing code type}
 # Heading 1 is <h1></h1>
@@ -26,14 +26,14 @@ the attribute for this element is src = "path/to/file"
 
 
 
-'''html
+```html
     <!DOCTYPE html>
     <html lang="en">
     <head>
         <meta charset="UTF-8">
         <title> Code Block</title>
     <img src = "path/to/file">
-'''
+```
 
 
 

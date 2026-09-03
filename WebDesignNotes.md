@@ -13,8 +13,12 @@ Void elements do NOT require an ending as they are discrete items already
 to add images you need the relative path IF the image is in the same folder or inside a set of folders inside the folder where your html file is in.  
 
 the attribute for this element is 'src = "path/to/file"'
-'''
-html
+'''html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Code Block</title>
 <img src = "path/to/file">
 '''
 notice the path to file *IS IN QUOTES*.  That is important and must be done

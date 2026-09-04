@@ -51,11 +51,11 @@ It looks like this: <img src="path/to/file" alt="alternative text"> when it need
 
 
 ## Vocabulary
-**Elements:** An element is an individual component of a webpage with a start tag, optional attributes, content, and most often an end tag  \ *Void Elements* like `<img>`don't have an end tag
+<p>**Elements:** An element is an individual component of a webpage with a start tag, optional attributes, content, and most often an end tag  \ *Void Elements* like `<img>`don't have an end tag
 
 **Attributes** A modifier placed *inside* an element (*between the opening and closing tags*) that configures behavior, appearance or gives extra information
 
-
+</p>
 
 
 

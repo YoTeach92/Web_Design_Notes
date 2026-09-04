@@ -42,10 +42,11 @@ notice the path to file *IS IN QUOTES*.  That is important and must be done
 Giving an alternate text if the image fails is good practice AND follows Universal design requirements for disabilities
 
 You add this attribute with the ' alt = "this is the alternate text" '
-'''
+```
 html
 <img src = "path/to/file" alt = "alternate text">
-'''
+```
+It looks like this: <img src="path/to/file" alt="alternative text"> when it needs to appear
 
 
 

@@ -60,11 +60,26 @@ It looks like this: <img src="path/to/file" alt="alternative text"> when it need
 
 ```html
 <element attribute="value"></element>
+<a href="https://www.freecodecamp.org" target="_blank">Visit freeCodeCamp</a>
 ```
 <p>
-The `href` attribute specifies the URL of a link and the `target` attribute specifies where to open the link.
+The ` href ` attribute specifies the URL of a link and the ` target ` attribute specifies where to open the link.
+The ` <a> ` is the anchor element
 </p>
 
 
+## List of elements we know:
+* src - source
+* alt - alt text
+* a - anchor
+* href
+* h1 (and h2 h3 h4 h5 h6 respectively)
+* p
+* target
 
+
+``` html
+<input type="checkbox" checked />
+```
+<input type="checkbox" checked />
 

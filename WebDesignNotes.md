@@ -68,18 +68,20 @@ The ` <a> ` is the anchor element
 </p>
 
 
-## List of elements we know:
-* src - source
-* alt - alt text
-* a - anchor
-* href
-* h1 (and h2 h3 h4 h5 h6 respectively)
-* p
-* target
-
-
 ``` html
 <input type="checkbox" checked />
 ```
-<input type="checkbox" checked />
+
+## List of elements we know:
+* src - source element
+    * alt - alt text (attribute of src element)
+* a - anchor element
+    * href - hypertext reference: attribute of anchor element
+    * target - attribute of anchor element, determines where hyperlink will open
+* h1 (and h2 h3 h4 h5 h6 respectively) - heading elements
+* p - paragraph element
+* input - element that takes input from the website user
+
+
+
 

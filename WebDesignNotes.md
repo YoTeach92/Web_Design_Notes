@@ -57,6 +57,14 @@ It looks like this: <img src="path/to/file" alt="alternative text"> when it need
 
 </p>
 
+<p>
+    ```
+    html
+    <element attribute="value"></element>
+    ```
+    The `href` attribute specifies the URL of a link and the `target` attribute specifies where to open the link.
+</p>
+
 
 
 

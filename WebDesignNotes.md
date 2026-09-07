@@ -13,7 +13,7 @@ Code{testing code type}
 ## Heading 2 is `<h2></h2>`
 ### Heading 3 is `<h3></h3>`
 
-`<p></p>` is paragraph format
+``<p></p>`` is paragraph format
 
 Regular elements require an ending
 
@@ -37,11 +37,11 @@ the attribute for this element is src = "path/to/file"
 
 
 
-notice the path to file *IS IN QUOTES*.  That is important and must be done
+notice the path to file ***IS IN QUOTES***.  That is important and must be done
 
 Giving an alternate text if the image fails is good practice AND follows Universal design requirements for disabilities
 
-You add this attribute with the ' alt = "this is the alternate text" '
+You add this attribute with the ` alt = "this is the alternate text" `
 ```
 html
 <img src = "path/to/file" alt = "alternate text">
@@ -51,21 +51,20 @@ It looks like this: <img src="path/to/file" alt="alternative text"> when it need
 
 
 ## Vocabulary
-<p>**Elements:** An element is an individual component of a webpage with a start tag, optional attributes, content, and most often an end tag  \ *Void Elements* like `<img>`don't have an end tag
+**Elements:** An element is an individual component of a webpage with a start tag, optional attributes, content, and most often an end tag  \ *Void Elements* like `<img>`don't have an end tag
 
 **Attributes** A modifier placed *inside* an element (*between the opening and closing tags*) that configures behavior, appearance or gives extra information
 
-</p>
 
 
 ```html
 <element attribute="value"></element>
 <a href="https://www.freecodecamp.org" target="_blank">Visit freeCodeCamp</a>
 ```
-<p>
+
 The ` href ` attribute specifies the URL of a link and the ` target ` attribute specifies where to open the link.
 The ` <a> ` is the anchor element
-</p>
+
 
 
 ``` html

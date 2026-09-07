@@ -81,6 +81,10 @@ The ` <a> ` is the anchor element
 * h1 (and h2 h3 h4 h5 h6 respectively) - heading elements
 * p - paragraph element
 * input - element that takes input from the website user
+    * checkbox - attribute of the input
+        * checked or unchecked - attribute of the checkbox
+
+
 
 
 

@@ -82,7 +82,10 @@ The ` <a> ` is the anchor element
 * p - paragraph element
 * input - element that takes input from the website user
     * checkbox - attribute of the input
-        * checked or unchecked - attribute of the checkbox
+        * checked or unchecked - boolean attribute of the checkbox
+        * disabled or enabled - boolean attribute of an input
+        * readonly - boolean attribute
+        * required - boolean attribute
 
 
 

@@ -159,7 +159,7 @@ Standard set of information you can often copy and paste, changing a few things 
     * script - runs first JavaScript code snippets
     * style - local page only CSS information
     * base - sets base directory for the page all assets are referenced relative to the base rather than the full address
-* main - wrapper around the core content.  One only visible, can **NOT** be inside the following: <article>, <aside>, <footer>, <header>, or <nav>
+* main - wrapper around the core content.  One only visible, can **NOT** be inside the following: `<article>, <aside>, <footer>, <header>, or <nav>`
 
 
 

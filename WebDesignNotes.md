@@ -82,15 +82,15 @@ html
 *NOT* hyperlinking a website, that is `<a></a>`
 
 ### Attributes with it
-p
-`<rel>` - relationship defines how the document replated to a linked resource
+
+<p>`<rel>` - relationship defines how the document is related to a linked resource
 
     * stylesheets - connects external CSS file to style the webpage
     * nofollow - tells search engines to skip it (not strict)
     * noopener - improves security of `target="blank"` links by preventing new page from accessing original page window
     * sponsored - marks paid advertisement link
     * ugc - Marks user generated content (comments, forum posts, etc)
-p
+</p>
 
 ## List of elements we know:
 * src - source element

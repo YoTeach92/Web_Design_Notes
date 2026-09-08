@@ -66,7 +66,7 @@ The ` href ` attribute specifies the URL of a link and the ` target ` attribute 
 The ` <a> ` is the anchor element
 
 
-
+Inputs are also available to allow user input directly on the HTML
 ``` html
 <input type="checkbox" checked />
 ```
@@ -77,20 +77,59 @@ A link element is used to link to external resources like stylesheets and site i
 ```
 html
 <link rel="stylesheet" href="./styles.css" />
+<link rel="icon" href="icon_file_name.ico" />
 ```
+**./** in the href means to look in a folder inside the current directory
+
+Link elements should be placed inside the `<head>` element
 
 *NOT* hyperlinking a website, that is `<a></a>`
 
 ### Attributes with it
 
 `<rel>` - relationship defines how the document is related to a linked resource
-
-* stylesheets - connects external CSS file to style the webpage
+* stylesheets - connects external CSS file to style the web page
 * nofollow - tells search engines to skip it (not strict)
 * noopener - improves security of `target="blank"` links by preventing new page from accessing original page window
 * sponsored - marks paid advertisement link
 * ugc - Marks user generated content (comments, forum posts, etc)
 
+## Head element
+Example:
+```
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Examples of the link element</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+```
+More about the head later
+
+### Boilerplate in the head
+Standard set of information you can often copy and paste, changing a few things along the way
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+       name="viewport"
+       content="width=device-width, initial-scale=1.0" />
+    <title>Title of the Webpage</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+  </body>
+</html>
+```
+* DOCTYPE HTML defines the document type
+* `<HTML lang="en">  </HTML>` defines the language as English and ***everything*** on the page goes in between the opening and closing HTML brackets
+* charset - standard today is UTF-8 or Unicode version 8.  It includes multiple languages, emojis, accented letters etc.
+    * other options:
+        * US-ASCII - old school 7 bit English only
+        * UTF-16 or UTF-32 - used in programming environments (16 and 32 bit sizes)
+        * ISO-8859 Series - legacy international standards for non-English languages
 
 ## List of elements we know:
 * src - source element
@@ -107,7 +146,19 @@ html
         * readonly - boolean attribute
         * required - boolean attribute
 * link - link to outside sources (CSS & icons)
-    * rel 
+    * rel - relationship attribute of link
+        * alternate - alternate representations of the current document
+        * icon - icon image file.  Usually also contains alternate versions/sizes for different devices
+        * stylesheet - references the CSS stylesheet file
+            * best practice is to keep the HTML and CSS files separate from each other
+    * href - used to give the link to the resource (CSS file)
+* head - invisible information needed for the computer to accurately show your webpage (one per page ONLY)
+    * link - CSS file is referenced here
+    * title - the title that shows on the browser tab
+    * meta - meta data (like link to CSS, character encoding
+    * script - runs first JavaScript code snippets
+    * style - local page only CSS information
+    * base - sets base directory for the page all assets are referenced relative to the base rather than the full address
 
 
 

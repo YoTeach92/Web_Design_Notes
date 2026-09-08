@@ -71,7 +71,7 @@ Inputs are also available to allow user input directly on the HTML
 <input type="checkbox" checked />
 ```
 
-## Link Element
+# Link Element
 A link element is used to link to external resources like stylesheets and site icons. 
 
 ```
@@ -94,7 +94,7 @@ Link elements should be placed inside the `<head>` element
 * sponsored - marks paid advertisement link
 * ugc - Marks user generated content (comments, forum posts, etc)
 
-## Head element
+# Head element
 Example:
 ```
 <head>
@@ -131,7 +131,7 @@ Standard set of information you can often copy and paste, changing a few things 
         * UTF-16 or UTF-32 - used in programming environments (16 and 32 bit sizes)
         * ISO-8859 Series - legacy international standards for non-English languages
 
-## List of elements we know:
+# List of elements we know:
 * src - source element
     * alt - alt text (attribute of src element)
 * a - anchor element

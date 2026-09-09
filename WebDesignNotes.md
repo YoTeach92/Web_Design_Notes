@@ -8,6 +8,8 @@
 
 `<em></em>` is the emphasis element and <em> italicizes </em> in between them
 
+`<strong></strong>` is the strong element and <strong> bolds </strong> in between them
+
 `<ul></ul>` is an unordered list
 
 <ul>

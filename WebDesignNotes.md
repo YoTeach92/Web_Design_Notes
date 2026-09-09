@@ -1,20 +1,27 @@
+# Text words and formatting
 
-```html
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title> Code Block</title>
-    <img src = "path/to/file">
-```
-
-Code{testing code type}
 # Heading 1 is `<h1></h1>`
 ## Heading 2 is `<h2></h2>`
 ### Heading 3 is `<h3></h3>`
 
 `<p></p>` is paragraph format
+
 `<em></em>` is the emphasis element and italicizes in between them
+
+`<ul></ul>` is an unordered list
+
+<ul>
+    <li>cheddar</li>
+    <li>swiss</li>
+    <li>gouda</li>
+</ul>
+
+`<ol></ol>` is an ordered (numbered list)
+<ol>
+    <li>frosted flakes</li>
+    <li>cheerios</li>
+    <li>granola</li>
+</ol>
 
 ## Elements vs Attributes
 **Elements:** An element is an individual component of a webpage with a start tag, optional attributes, content, and most often an end tag  \ *Void Elements* like `<img>`don't have an end tag

@@ -180,7 +180,8 @@ Standard set of information you can often copy and paste, changing a few things 
 * head - invisible information needed for the computer to accurately show your webpage (one per page ONLY)
     * link - CSS file is referenced here
     * title - the title that shows on the browser tab
-    * meta - meta data (like link to CSS, character encoding
+    * meta - meta data
+        * charset - declares the character encoding scheme used by the page
     * script - runs first JavaScript code snippets
     * style - local page only CSS information
     * base - sets base directory for the page all assets are referenced relative to the base rather than the full address
@@ -189,7 +190,6 @@ Standard set of information you can often copy and paste, changing a few things 
 * footer - at the bottom of the website, usually contains author, copyright, terms of use etc
 * figure - used to group logical items together like images and captions, charts and graphs, code snippets, etc.
     * figcaption - adds the text to the figure group
-* 
 
 
 

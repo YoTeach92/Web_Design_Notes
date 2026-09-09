@@ -130,6 +130,12 @@ Standard set of information you can often copy and paste, changing a few things 
         * US-ASCII - old school 7 bit English only
         * UTF-16 or UTF-32 - used in programming environments (16 and 32 bit sizes)
         * ISO-8859 Series - legacy international standards for non-English languages
+     
+### Main element
+* main should wrap the core functionality and/or content
+* One only visible
+* Can **NOT** be inside the following: `<article>, <aside>, <footer>, <header>, or <nav>`
+* Matches the coding concepts of Python, and especially C languages of having one main function
 
 # List of elements we know:
 * src - source element
@@ -159,7 +165,8 @@ Standard set of information you can often copy and paste, changing a few things 
     * script - runs first JavaScript code snippets
     * style - local page only CSS information
     * base - sets base directory for the page all assets are referenced relative to the base rather than the full address
-* main - wrapper around the core content.  One only visible, can **NOT** be inside the following: `<article>, <aside>, <footer>, <header>, or <nav>`
+* main - wrapper around the core content
+    * 
 
 
 

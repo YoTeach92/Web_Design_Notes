@@ -1,4 +1,4 @@
-# Text words and formatting
+# Text elements and formatting
 
 # Heading 1 is `<h1></h1>`
 ## Heading 2 is `<h2></h2>`
@@ -48,7 +48,7 @@ Regular elements require an ending
 
 Void elements do NOT require an ending as they are discrete items already
 
-## Image elements
+# Image elements
 `<img>` is a void element
 to add images you need the relative path IF the image is in the same folder or inside a set of folders inside the folder where your html file is in.  
 
@@ -141,13 +141,13 @@ Standard set of information you can often copy and paste, changing a few things 
         * UTF-16 or UTF-32 - used in programming environments (16 and 32 bit sizes)
         * ISO-8859 Series - legacy international standards for non-English languages
      
-### Main element
+# Main element
 * main should wrap the core functionality and/or content
 * One only visible
 * Can **NOT** be inside the following: `<article>, <aside>, <footer>, <header>, or <nav>`
 * Matches the coding concepts of Python, and especially C languages of having one main function
 
-### footer element
+# Footer element
 `<footer>` stuff goes here `</footer>`
 * used for Copyright notices: Legal ownership information for the site or content.Contact details: Phone numbers, physical addresses, or author information (often enclosed in an <address> tag).Important links: Privacy policies, terms of service, sitemaps, or FAQs.Navigation aids: Social media icons or "back to top" links.)
 

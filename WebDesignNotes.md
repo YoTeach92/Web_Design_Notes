@@ -149,7 +149,7 @@ Standard set of information you can often copy and paste, changing a few things 
 
 ### footer element
 `<footer>` stuff goes here `</footer>`
-* used for 
+* used for Copyright notices: Legal ownership information for the site or content.Contact details: Phone numbers, physical addresses, or author information (often enclosed in an <address> tag).Important links: Privacy policies, terms of service, sitemaps, or FAQs.Navigation aids: Social media icons or "back to top" links.)
 
 # List of elements we know:
 * src - source element

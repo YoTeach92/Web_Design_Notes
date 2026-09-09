@@ -13,49 +13,13 @@ Code{testing code type}
 ## Heading 2 is `<h2></h2>`
 ### Heading 3 is `<h3></h3>`
 
-``<p></p>`` is paragraph format
+`<p></p>` is paragraph format
+`<em></em>` is the emphasis element and italicizes in between them
 
-Regular elements require an ending
-
-Void elements do NOT require an ending as they are discrete items already
-
-`<img>` is a void element
-to add images you need the relative path IF the image is in the same folder or inside a set of folders inside the folder where your html file is in.  
-
-the attribute for this element is src = "path/to/file"
-
-
-
-```html
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title> Code Block</title>
-    <img src = "path/to/file">
-```
-
-
-
-notice the path to file ***IS IN QUOTES***.  That is important and must be done
-
-Giving an alternate text if the image fails is good practice AND follows Universal design requirements for disabilities
-
-You add this attribute with the ` alt = "this is the alternate text" `
-```
-html
-<img src = "path/to/file" alt = "alternate text">
-```
-It looks like this: <img src="path/to/file" alt="alternative text"> when it needs to appear
-
-
-
-## Vocabulary
+## Elements vs Attributes
 **Elements:** An element is an individual component of a webpage with a start tag, optional attributes, content, and most often an end tag  \ *Void Elements* like `<img>`don't have an end tag
 
 **Attributes** A modifier placed *inside* an element (*between the opening and closing tags*) that configures behavior, appearance or gives extra information
-
-
 
 ```html
 <element attribute="value"></element>
@@ -70,6 +34,43 @@ Inputs are also available to allow user input directly on the HTML
 ``` html
 <input type="checkbox" checked />
 ```
+
+Regular elements require an ending
+
+Void elements do NOT require an ending as they are discrete items already
+
+## Image elements
+`<img>` is a void element
+to add images you need the relative path IF the image is in the same folder or inside a set of folders inside the folder where your html file is in.  
+
+the attribute for this element is src = "path/to/file"
+
+```html
+
+    <img src = "path/to/file">
+```
+
+notice the path to file ***IS IN QUOTES***.  That is important and must be done
+
+Giving an alternate text if the image fails is good practice AND follows Universal design requirements for disabilities
+
+You add this attribute with the ` alt = "this is the alternate text" `
+```
+html
+<img src = "path/to/file" alt = "alternate text">
+```
+It looks like this: <img src="path/to/file" alt="alternative text"> when it needs to appear
+
+#### Figure with images
+The `<figure>` element is an HTML semantic tag used to group self-contained content like images, diagrams, code snippets, or charts
+```
+<figure>
+  <img src="flower.jpg" alt="A close-up of a red flower">
+  <figcaption>Figure 1: A red flower in the spring garden.</figcaption>
+</figure>
+```
+The `<figcaption>` element goes with it to add the text as a single unit 
+
 
 # Link Element
 A link element is used to link to external resources like stylesheets and site icons. 
@@ -145,6 +146,7 @@ Standard set of information you can often copy and paste, changing a few things 
     * target - attribute of anchor element, determines where hyperlink will open
 * h1 (and h2 h3 h4 h5 h6 respectively) - heading elements
 * p - paragraph element
+* em - emphasis element (italicizes the text in between the open and close)
 * input - element that takes input from the website user
     * checkbox - attribute of the input
         * checked or unchecked - boolean attribute of the checkbox
@@ -169,7 +171,9 @@ Standard set of information you can often copy and paste, changing a few things 
 * section - separates logical sections of html
 * ul - unordered list
     * li - bulleted list item (requires open and close), must be nested in a `<ul>` element
-
+* figure - used to group logical items together like images and captions, charts and graphs, code snippets, etc.
+    * figcaption - adds the text to the figure group
+* 
 
 
 

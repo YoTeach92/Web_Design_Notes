@@ -167,6 +167,8 @@ Standard set of information you can often copy and paste, changing a few things 
     * base - sets base directory for the page all assets are referenced relative to the base rather than the full address
 * main - wrapper around the core content
 * section - separates logical sections of html
+* ul - unordered list
+    * li - bulleted list item (requires open and close), must be nested in a `<ul>` element
 
 
 

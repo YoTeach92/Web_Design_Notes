@@ -6,7 +6,7 @@
 
 `<p></p>` is paragraph format
 
-`<em></em>` is the emphasis element and italicizes in between them
+`<em></em>` is the emphasis element and <em> italicizes </em> in between them
 
 `<ul></ul>` is an unordered list
 

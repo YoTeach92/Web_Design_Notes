@@ -147,6 +147,10 @@ Standard set of information you can often copy and paste, changing a few things 
 * Can **NOT** be inside the following: `<article>, <aside>, <footer>, <header>, or <nav>`
 * Matches the coding concepts of Python, and especially C languages of having one main function
 
+### footer element
+`<footer>` stuff goes here `</footer>`
+* used for 
+
 # List of elements we know:
 * src - source element
     * alt - alt text (attribute of src element)
@@ -156,6 +160,10 @@ Standard set of information you can often copy and paste, changing a few things 
 * h1 (and h2 h3 h4 h5 h6 respectively) - heading elements
 * p - paragraph element
 * em - emphasis element (italicizes the text in between the open and close)
+* strong - strong element (bolds the text between open and close)
+* * ul - unordered list
+    * li - bulleted list item (requires open and close), must be nested in a `<ul>` element
+* ol - ordered list (numbered list of items) uses the `<li>` element for each item
 * input - element that takes input from the website user
     * checkbox - attribute of the input
         * checked or unchecked - boolean attribute of the checkbox
@@ -178,8 +186,7 @@ Standard set of information you can often copy and paste, changing a few things 
     * base - sets base directory for the page all assets are referenced relative to the base rather than the full address
 * main - wrapper around the core content
 * section - separates logical sections of html
-* ul - unordered list
-    * li - bulleted list item (requires open and close), must be nested in a `<ul>` element
+* footer - at the bottom of the website, usually contains author, copyright, terms of use etc
 * figure - used to group logical items together like images and captions, charts and graphs, code snippets, etc.
     * figcaption - adds the text to the figure group
 * 

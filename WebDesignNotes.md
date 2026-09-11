@@ -162,6 +162,7 @@ Sample:
 breakdown:
 
 | image element | source element | alternative text element |
+| :--- | :---: | :--- |
 |<img | src="path/to/file" | alt="alternative text"> |
 
 ```

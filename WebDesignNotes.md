@@ -175,18 +175,18 @@ Standard set of information you can often copy and paste, changing a few things 
         * "_blank" opens in a **new** browser tab or window
         * "_parent" opens in the parent context like inside of a frame or not (OR acts like _self)
         * "_top" opens the document in the full body of the window (breaks out of any frames)
-            ```
-            html
-            sample 1 text link:
-            <a href = "website/address/of/site" target = "_self"> Text to be hyperlinked blue </a>
-            
-            sample 2 image link:
-            <a href = "website/address/of/site" target = "_self"> <img src="path/to/file" alt="alternative text"> </a>
-            ```
-            | opening anchor element | hyperlink reference address | how to open (new tab or same) | What is being linked | closing anchor element |
-            | --- | --- | --- | --- | --- |
-            | <a | href = "website/address/of/site" | target = "_self"> | Text to be hyperlinked blue | `</a>` |
-            | <a | href = "website/address/of/site" | target = "_blank"> | <img src="path/to/file" alt="alternative text"> | </a> |
+        ```
+        html
+        sample 1 text link:
+        <a href = "website/address/of/site" target = "_self"> Text to be hyperlinked blue </a>
+        
+        sample 2 image link:
+        <a href = "website/address/of/site" target = "_self"> <img src="path/to/file" alt="alternative text"> </a>
+        ```
+        | opening anchor element | hyperlink reference address | how to open (new tab or same) | What is being linked | closing anchor element |
+        | --- | --- | --- | --- | --- |
+        | <a | href = "website/address/of/site" | target = "_self"> | Text to be hyperlinked blue | `</a>` |
+        | <a | href = "website/address/of/site" | target = "_blank"> | `<img src="path/to/file" alt="alternative text">` | </a> |
             
 
 

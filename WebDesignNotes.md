@@ -165,6 +165,17 @@ breakdown:
 | :--- | :---: | :--- |
 |<img | src="path/to/file" | alt="alternative text"> |
 
+
+
+
+| Feature | Description | Status |
+| :--- | :---: | ---: |
+| Left-aligned | Center-aligned | Right-aligned |
+| Bold **Text** | `Inline Code` | Simple text |
+| Multi-line <br> using HTML | [GitHub](https://github.com) | Normal |
+| Escaped Pipe `\|` | Standard | Row 4 |
+
+
 ```
 img is the image tag
 src is the 

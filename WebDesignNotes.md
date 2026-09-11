@@ -152,8 +152,21 @@ Standard set of information you can often copy and paste, changing a few things 
 * used for Copyright notices: Legal ownership information for the site or content.Contact details: Phone numbers, physical addresses, or author information (often enclosed in an <address> tag).Important links: Privacy policies, terms of service, sitemaps, or FAQs.Navigation aids: Social media icons or "back to top" links.)
 
 # List of elements we know:
+* img - img element
 * src - source element
     * alt - alt text (attribute of src element)
+ 
+```
+Sample:
+<img src="path/to/file" alt="alternative text">
+breakdown:
+| image element | source element | alternative text element |
+|<img | src="path/to/file" | alt="alternative text"> |
+
+```
+img is the image tag
+src is the 
+
 * a - anchor element
     * href - hypertext reference: attribute of anchor element
     * target - attribute of anchor element, determines where hyperlink will open

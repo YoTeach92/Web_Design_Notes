@@ -160,6 +160,7 @@ Standard set of information you can often copy and paste, changing a few things 
 Sample:
 <img src="path/to/file" alt="alternative text">
 breakdown:
+
 | image element | source element | alternative text element |
 |<img | src="path/to/file" | alt="alternative text"> |
 

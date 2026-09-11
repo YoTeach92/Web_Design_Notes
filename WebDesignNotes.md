@@ -156,18 +156,16 @@ Standard set of information you can often copy and paste, changing a few things 
 * src - source element
     * alt - alt text (attribute of src element)
  
-```
-Sample:
-<img src="path/to/file" alt="alternative text">
-breakdown:
-```
-| image element | source element | alternative text element |
-| :--- | :---------------------: | :----------------------- |
-|<img | src="path/to/file" | alt="alternative text"> |
+        ```
+        Sample:
+        <img src="path/to/file" alt="alternative text">
+        breakdown:
+        ```
+        | image element | source element | alternative text element |
+        | :--- | :---------------------: | :----------------------- |
+        |<img | src="path/to/file" | alt="alternative text"> |
 
 
-img is the image tag
-src is the 
 
 * a - anchor element
     * href - hypertext reference: attribute of anchor element

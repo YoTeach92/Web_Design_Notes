@@ -186,7 +186,7 @@ Standard set of information you can often copy and paste, changing a few things 
         | opening anchor element | hyperlink reference address | how to open (new tab or same) | What is being linked | closing anchor element |
         | --- | --- | --- | --- | --- |
         | <a | href = "website/address/of/site" | target = "_self"> | Text to be hyperlinked blue | `</a>` |
-        | <a | href = "website/address/of/site" | target = "_blank"> | `<img src="path/to/file" alt="alternative text">` | </a> |
+        | <a | href = "website/address/of/site" | target = "_blank"> | `<img src="path/to/file" alt="alternative text">` | `</a>` |
             
 
 

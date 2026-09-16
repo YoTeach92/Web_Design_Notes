@@ -29,3 +29,6 @@ Thumbs.db
 # === Debugger & Temporary Files ===
 *.log
 *.tmp
+
+# === class_site Directory and Files
+class_site/

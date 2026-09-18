@@ -37,20 +37,20 @@ Tests:
 - [x] :6. You should have a title element within your head element.
 - [x] :7. Your title element should have a closing tag. Closing tags have a / just after the < character.
 - [x] :8. Your title element should have your recipe title.
-- [ ] :9. You should have a meta element within your head element.
-- [ ] :10. Your meta element should have its charset attribute set to UTF-8.
-- [ ] :11. You should have a body element within your html element.
-- [ ] :12. Your body element should have a closing tag. Closing tags have a / just after the < character.
-- [ ] :13. You should have only one h1 element with the name of your recipe.
-- [ ] :14. You should only have one h1 element.
+- [x] :9. You should have a meta element within your head element.
+- [x] :10. Your meta element should have its charset attribute set to UTF-8.
+- [x] :11. You should have a body element within your html element.
+- [x] :12. Your body element should have a closing tag. Closing tags have a / just after the < character.
+- [x] :13. You should have only one h1 element with the name of your recipe.
+- [x] :14. You should only have one h1 element.
 - [ ] :15. You should have a p element below your h1 element.
-- [ ] :16. Your first p element should describe your recipe.
-- [ ] :17. Your first h2 element should have the text Ingredients.
-- [ ] :18. You should have an unordered list element below your first h2 element.
-- [ ] :19. You should have at least four list item elements in your unordered list with the ingredients.
-- [ ] :20. Your second h2 element should have the text Instructions.
-- [ ] :21. You should have an ordered list element below your second h2 element.
-- [ ] :22. You should have at least four list item elements in your ordered list with the instructions.
-- [ ] :23. You should have at least one img element.
-- [ ] :24. All your img elements should have a valid src attribute and value.
-- [ ] :25. All your img elements should have an alt attribute to describe the image.
+- [x] :16. Your first p element should describe your recipe.
+- [x] :17. Your first h2 element should have the text Ingredients.
+- [x] :18. You should have an unordered list element below your first h2 element.
+- [x] :19. You should have at least four list item elements in your unordered list with the ingredients.
+- [x] :20. Your second h2 element should have the text Instructions.
+- [x] :21. You should have an ordered list element below your second h2 element.
+- [x] :22. You should have at least four list item elements in your ordered list with the instructions.
+- [x] :23. You should have at least one img element.
+- [x] :24. All your img elements should have a valid src attribute and value.
+- [x] :25. All your img elements should have an alt attribute to describe the image.

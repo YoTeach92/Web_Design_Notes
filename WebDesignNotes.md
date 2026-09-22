@@ -150,6 +150,7 @@ Standard set of information you can often copy and paste, changing a few things 
 * Matches the coding concepts of Python, and especially C languages of having one main function
 
     Div element
+      * `<div></div>`
       * Content division element
       * A generic container or block for html elements that go together
       * By default, it starts on a new line and takes up the full width available
@@ -226,6 +227,7 @@ Standard set of information you can often copy and paste, changing a few things 
     * style - local page only CSS information
     * base - sets base directory for the page all assets are referenced relative to the base rather than the full address
 * main - wrapper around the core content
+* div - division element sets up a container block of content
 * section - separates logical sections of html
 * footer - at the bottom of the website, usually contains author, copyright, terms of use etc
 * figure - used to group logical items together like images and captions, charts and graphs, code snippets, etc.

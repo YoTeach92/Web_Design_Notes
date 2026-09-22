@@ -25,6 +25,8 @@
     <li>granola</li>
 </ol>
 
+`<li></li>` is the element for each item in either an ordered or unordered list
+
 ## Elements vs Attributes
 **Elements:** An element is an individual component of a webpage with a start tag, optional attributes, content, and most often an end tag  \ *Void Elements* like `<img>`don't have an end tag
 
@@ -146,6 +148,11 @@ Standard set of information you can often copy and paste, changing a few things 
 * One only visible
 * Can **NOT** be inside the following: `<article>, <aside>, <footer>, <header>, or <nav>`
 * Matches the coding concepts of Python, and especially C languages of having one main function
+
+    Div element
+      * Content division element
+      * A generic container or block for html elements that go together
+      * By default, it starts on a new line and takes up the full width available
 
 # Footer element
 `<footer>` stuff goes here `</footer>`

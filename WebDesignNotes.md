@@ -149,11 +149,19 @@ Standard set of information you can often copy and paste, changing a few things 
 * Can **NOT** be inside the following: `<article>, <aside>, <footer>, <header>, or <nav>`
 * Matches the coding concepts of Python, and especially C languages of having one main function
 
-    Div element
-      * `<div></div>`
-      * Content division element
-      * A generic container or block for html elements that go together
-      * By default, it starts on a new line and takes up the full width available
+
+## Div element
+* `<div></div>`
+* Content division element
+* A generic container or block for html elements that go together
+* By default, it starts on a new line and takes up the full width available
+* Group together elements that share the same CSS format
+* No semantic meaning (generic purpose rather than having a structure based on what it is doing)
+
+## Section
+* `<section></section>`
+* Semantic container that works well for many devices
+* Groups together elements
 
 # Footer element
 `<footer>` stuff goes here `</footer>`

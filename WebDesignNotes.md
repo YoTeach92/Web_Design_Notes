@@ -160,7 +160,13 @@ Standard set of information you can often copy and paste, changing a few things 
 
 ## Class attribute
 * `<element class="something"> </element>`
-* 
+* Class attribute can be used multiple times
+* An element can be part of more than one class
+* a space in the name creates two classes
+    * `<elementName class="box boxes-blue"></elementName>`
+    * This creates two classes: *box* and *boxes-blue* and places the element name in it
+    * This is handy because of class inheritance (later)
+* **Class is best used when you have multiple elements with the same styles**
 ```
 <div class="box">stuff</div>
 ```
@@ -172,6 +178,7 @@ Standard set of information you can often copy and paste, changing a few things 
 * No spaces in the name of the tag, no quotes just letters numbers underscores and dashes
 * NOTE: explicitly select your labeled element by using `document.getElementById("name_of_attribute)`
 * NOTE: when referencing from CSS the `#` at the beginning `#title { color: blue;}` is a keyword to target the id tagged element
+* **ID is best used for only one element
 
 ## Section
 * `<section></section>`

@@ -158,6 +158,21 @@ Standard set of information you can often copy and paste, changing a few things 
 * Group together elements that share the same CSS format
 * No semantic meaning (generic purpose rather than having a structure based on what it is doing)
 
+## Class attribute
+* `<element class="something"> </element>`
+* 
+```
+<div class="box">stuff</div>
+```
+
+## id attribute
+* allows you to identify the item for future work in CSS and Javascript.
+* This will create a global variable for every html item with an id tag
+* each tag name must be unique for this reason
+* No spaces in the name of the tag, no quotes just letters numbers underscores and dashes
+* NOTE: explicitly select your labeled element by using `document.getElementById("name_of_attribute)`
+* NOTE: when referencing from CSS the `#` at the beginning `#title { color: blue;}` is a keyword to target the id tagged element
+
 ## Section
 * `<section></section>`
 * Semantic container that works well for many devices

@@ -203,7 +203,7 @@ Standard set of information you can often copy and paste, changing a few things 
   `"` | double quotes | `&quot;`|
   `'` | apostrophe or single quote | `&apps;`|
 
-  * There are others but this is a basic list
+* There are others but this is a basic list
           
               
 (----------------------)

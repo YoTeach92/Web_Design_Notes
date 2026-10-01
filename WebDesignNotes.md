@@ -189,6 +189,29 @@ Standard set of information you can often copy and paste, changing a few things 
 `<footer>` stuff goes here `</footer>`
 * used for Copyright notices: Legal ownership information for the site or content.Contact details: Phone numbers, physical addresses, or author information (often enclosed in an <address> tag).Important links: Privacy policies, terms of service, sitemaps, or FAQs.Navigation aids: Social media icons or "back to top" links.)
 
+
+## HTML Entity, or character reference
+* To show `<` and `>` which are normally parsed as code for HTML, you need a way to show the parser that it is a simple character
+* Named references begin with an **&** and end with an **;**
+* This prevents the parser from seeing it as an element
+* Named references:
+  | Character | Name | Reference |
+  |:---|:---:|:---|
+  & | Ampersand | `&amp;` |
+  < | Less-than | `&lt;` |
+          
+              
+(----------------------)
+
+
+
+
+
+
+
+
+
+
 # List of elements we know:
 * img - img element
 * src - source element

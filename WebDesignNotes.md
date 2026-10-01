@@ -196,9 +196,14 @@ Standard set of information you can often copy and paste, changing a few things 
 * This prevents the parser from seeing it as an element
 * Named references:
   | Character | Name | Reference |
-  |:---|:---:|:---|
+  |:---:|:---|:---:|
   & | Ampersand | `&amp;` |
   < | Less-than | `&lt;` |
+  `>` | Greater-than | `&gt;` |
+  `"` | double quotes | `&quot;`|
+  `'` | apostrophe or single quote | `&apps;`|
+
+  * There are others but this is a basic list
           
               
 (----------------------)

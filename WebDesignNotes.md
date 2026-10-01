@@ -204,6 +204,14 @@ Standard set of information you can often copy and paste, changing a few things 
   `'` | apostrophe or single quote | `&apps;`|
 
 * There are others but this is a basic list
+
+# Script Elemnent
+* `<script></script>`
+* Used with source (src) to locate and load the .js file
+```
+<script> src="path-to-js-file.js"></script>
+```
+* Your script file ***should*** be in a separate file.
           
               
 (----------------------)
@@ -285,6 +293,7 @@ Standard set of information you can often copy and paste, changing a few things 
     * style - local page only CSS information
     * base - sets base directory for the page all assets are referenced relative to the base rather than the full address
 * main - wrapper around the core content
+* script - element used to embed executable code    
 * div - division element sets up a container block of content
 * section - separates logical sections of html
 * footer - at the bottom of the website, usually contains author, copyright, terms of use etc

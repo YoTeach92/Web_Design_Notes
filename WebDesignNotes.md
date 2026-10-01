@@ -288,6 +288,7 @@ Standard set of information you can often copy and paste, changing a few things 
 * div - division element sets up a container block of content
 * section - separates logical sections of html
 * footer - at the bottom of the website, usually contains author, copyright, terms of use etc
+    * use special character references here for copyright etc `&reg;` for &reg;
 * figure - used to group logical items together like images and captions, charts and graphs, code snippets, etc.
     * figcaption - adds the text to the figure group
 

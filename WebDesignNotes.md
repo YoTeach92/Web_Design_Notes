@@ -185,6 +185,14 @@ Standard set of information you can often copy and paste, changing a few things 
 * Semantic container that works well for many devices
 * Groups together elements
 
+# Button Element
+* `<button></button>`
+* Creates a standard button with the text that is in the middle
+* Can be used with class and id attributes for CSS and later Javascript
+```
+<button class="my-buttons" id="button-that-does-a-thing> Text In The Button </button>
+```
+
 # Footer element
 `<footer>` stuff goes here `</footer>`
 * used for Copyright notices: Legal ownership information for the site or content.Contact details: Phone numbers, physical addresses, or author information (often enclosed in an <address> tag).Important links: Privacy policies, terms of service, sitemaps, or FAQs.Navigation aids: Social media icons or "back to top" links.)
@@ -205,7 +213,7 @@ Standard set of information you can often copy and paste, changing a few things 
 
 * There are others but this is a basic list
 
-# Script Elemnent
+# Script Element
 * `<script></script>`
 * Used with source (src) to locate and load the .js file
 ```

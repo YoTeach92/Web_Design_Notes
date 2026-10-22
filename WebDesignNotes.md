@@ -151,7 +151,7 @@ Standard set of information you can often copy and paste, changing a few things 
 <meta
   name="description"
   content="The HTML reference describes all elements and attributes of HTML,
-including global attributes that apply to all elements." />
+  including global attributes that apply to all elements." />
 ```
      
 # Main element

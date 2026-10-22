@@ -142,6 +142,16 @@ Standard set of information you can often copy and paste, changing a few things 
         * US-ASCII - old school 7 bit English only
         * UTF-16 or UTF-32 - used in programming environments (16 and 32 bit sizes)
         * ISO-8859 Series - legacy international standards for non-English languages
+
+#### Meta and Open Graph (OG) Tags
+* `<meta>` can contain many tags
+* `<meta name="application-name" content="Weather Wizard" lang="en" />`
+* Name and content etc.
+```
+<meta
+  name="description"
+  content="The HTML reference describes all elements and attributes of HTML, including global attributes that apply to all elements." />
+```
      
 # Main element
 * main should wrap the core functionality and/or content

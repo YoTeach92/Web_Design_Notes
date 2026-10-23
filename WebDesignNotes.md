@@ -143,16 +143,84 @@ Standard set of information you can often copy and paste, changing a few things 
         * UTF-16 or UTF-32 - used in programming environments (16 and 32 bit sizes)
         * ISO-8859 Series - legacy international standards for non-English languages
 
-#### Meta and Open Graph (OG) Tags
-* `<meta>` can contain many tags
-* `<meta name="application-name" content="Weather Wizard" lang="en" />`
-* Name and content etc.
+#### Meta Tags 
+* Meta tags are Search Engine Optimization (Google)
+* Best practice is one item per meta tag
+* They are inside a `<meta>` tag and contain 2 parts
+    * **name** which is the label for the tag and lets the search engine know what you are giving them
+        * description = describes the site for the search engine
+        * keywords = search engine key search terms, separated by commas
+        * author = name of the author of the site (or company name)
+        * viewport = sets scale and content resizing for mobile devices
+    * **content** which is the actual information for the search engine to read and show
+        * for description = describes what the website is
+        * for keywords = list of keywords separated by commas
+        * for author = name of the author or name of the company that is making the site
+        * for viewport = `content="width=device-width, initial-scale=1.0"` will set the width of the content and scale it for mobile devices
 ```
-<meta
-  name="description"
-  content="The HTML reference describes all elements and attributes of HTML,
-  including global attributes that apply to all elements." />
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="John Doe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
+
+#### Open Graph (OG) Tags
+* Used for turning a simple link into a rich content for social media, text messaging etc.
+* Put in a `<meta>` tag and contains 2 parts
+    * **property** which operates like name but *must* start with "og:"
+        * `og:title` Title of your object as it should appear
+        * `og:type` defines the type of object
+        * `og:image` gives the image that should appear with everything (thumbnail of a video etc)
+        * `og:url` URL of the object, the place you want people to go if they click the object
+    * **content** which gives the actual information that matches the property name
+    * content information must be in quotes
+        * for title `content="Title of the thing"`
+        * for type this is where you use keywords to define what your content is
+            * website
+            * article
+            * video.movie
+            * book
+            * profile
+            * music.song
+            * product
+        * for image this is where you put the full URL to the image file
+        * for URL this is where the full web address for your site goes
+    * Optional metadata can be needed depending on type
+        * for the audio file link to the file
+            * `<meta property="og:audio" content="https://web_address.com/path/to/audio/file.mp3">`
+        * for the video file link to the file
+            * `<meta property="og:video" content="https://web_address.com/path/to/video/file.mp4">`
+        * For location and language settings
+        * `<meta property="og:locale" content="en_US">`
+            * en_US is English for the US
+            * en_GB is English for Great Britain (UK)
+            * fr_FR is French for France
+            * es_ES is Spanish for Spain
+* Examples of basic metadata
+```
+    <html prefix="og: https://ogp.me/ns#">
+    <head>
+    <title>The Rock (1996)</title>
+    <meta property="og:title" content="The Rock" />
+    <meta property="og:type" content="video.movie" />
+    <meta property="og:url" content="https://www.imdb.com/title/tt0117500/" />
+    <meta property="og:image" content="https://ia.media-imdb.com/images/rock.jpg" />
+```
+
+* Examples of Optional metadata
+```
+    <meta property="og:audio" content="https://example.com/bond/theme.mp3" />
+    <meta property="og:description" 
+      content="Sean Connery found fame and fortune as the suave, sophisticated British agent, James Bond." />
+    <meta property="og:determiner" content="the" />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:locale:alternate" content="fr_FR" />
+    <meta property="og:locale:alternate" content="es_ES" />
+    <meta property="og:site_name" content="IMDb" />
+    <meta property="og:video" content="https://example.com/bond/trailer.swf" />
+```
+
      
 # Main element
 * main should wrap the core functionality and/or content

@@ -50,38 +50,6 @@ Regular elements require an ending
 
 Void elements do NOT require an ending as they are discrete items already
 
-# Image elements
-`<img>` is a void element
-to add images you need the relative path IF the image is in the same folder or inside a set of folders inside the folder where your html file is in.  
-
-the attribute for this element is src = "path/to/file"
-
-```html
-
-    <img src = "path/to/file">
-```
-
-notice the path to file ***IS IN QUOTES***.  That is important and must be done
-
-Giving an alternate text if the image fails is good practice AND follows Universal design requirements for disabilities
-
-You add this attribute with the ` alt = "this is the alternate text" `
-```
-html
-<img src = "path/to/file" alt = "alternate text">
-```
-It looks like this: <img src="path/to/file" alt="alternative text"> when it needs to appear
-
-#### Figure with images
-The `<figure>` element is an HTML semantic tag used to group self-contained content like images, diagrams, code snippets, or charts
-```
-<figure>
-  <img src="flower.jpg" alt="A close-up of a red flower">
-  <figcaption>Figure 1: A red flower in the spring garden.</figcaption>
-</figure>
-```
-The `<figcaption>` element goes with it to add the text as a single unit 
-
 
 # Link Element
 A link element is used to link to external resources like stylesheets and site icons. 
@@ -249,6 +217,43 @@ Standard set of information you can often copy and paste, changing a few things 
 ```
 <div class="box">stuff</div>
 ```
+# Image elements
+`<img>` is a void element
+to add images you need the relative path IF the image is in the same folder or inside a set of folders inside the folder where your html file is in.  
+
+the attribute for this element is src = "path/to/file"
+
+```html
+
+    <img src = "path/to/file">
+```
+
+notice the path to file ***IS IN QUOTES***.  That is important and must be done
+
+Giving an alternate text if the image fails is good practice AND follows Universal design requirements for disabilities
+
+You add this attribute with the ` alt = "this is the alternate text" `
+```
+html
+<img src = "path/to/file" alt = "alternate text">
+```
+It looks like this: <img src="path/to/file" alt="alternative text"> when it needs to appear
+
+#### Figure with images
+The `<figure>` element is an HTML semantic tag used to group self-contained content like images, diagrams, code snippets, or charts
+```
+<figure>
+  <img src="flower.jpg" alt="A close-up of a red flower">
+  <figcaption>Figure 1: A red flower in the spring garden.</figcaption>
+</figure>
+```
+The `<figcaption>` element goes with it to add the text as a single unit 
+
+## Other Media Elements (Audio & Video)
+* `<audio>` elements use mp3, wav, and ogg files in your website much like img
+    * `<audio src="path/to/file.mp3> </audio>`
+*  `<video>` elements use mp4, ogg, and webm files in your websites
+    * `<video src="path/to/file.mp4">  </video>` 
 
 ## id attribute
 * allows you to identify the item for future work in CSS and Javascript.

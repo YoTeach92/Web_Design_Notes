@@ -254,11 +254,23 @@ The `<figcaption>` element goes with it to add the text as a single unit
     * `<audio src="path/to/file.mp3> </audio>`
 *  `<video>` elements use mp4, ogg, and webm files in your websites
     * `<video src="path/to/file.mp4">  </video>`
+    * You will want multiple formats of the video as sources and list them in order of preference
+    * Text listed between `<video>` and `</video>` will appear if no formats were supported
+ 
+
 ### Attributes for Media
 * Control attribute to any media element
+
 | Attribute | Value | Description |
 |:---|:---:|:---|
 |autoplay | autoplay | starts playing as soon as it is ready |
+|controls|controls|displays video controls|
+|loop|loop|plays video in a loop until stopped|
+|muted|muted|starts video with audio muted|
+|poster|*URL*|URL of an image to display while the video loads|
+|height|*pixels*|Size in pixels of the video player (video will fill up to aspect ratio)|
+|width|*pixels*|Size in pixels of the video player (video will fill up to aspect ratio)|
+|src|*URL*|URL of the video source|
 
 ## id attribute
 * allows you to identify the item for future work in CSS and Javascript.

@@ -253,7 +253,12 @@ The `<figcaption>` element goes with it to add the text as a single unit
 * `<audio>` elements use mp3, wav, and ogg files in your website much like img
     * `<audio src="path/to/file.mp3> </audio>`
 *  `<video>` elements use mp4, ogg, and webm files in your websites
-    * `<video src="path/to/file.mp4">  </video>` 
+    * `<video src="path/to/file.mp4">  </video>`
+### Attributes for Media
+* Control attribute to any media element
+| Attribute | Value | Description |
+|---|---|---|
+|autoplay | autoplay | starts playing as soon as it is ready |
 
 ## id attribute
 * allows you to identify the item for future work in CSS and Javascript.

@@ -257,7 +257,7 @@ The `<figcaption>` element goes with it to add the text as a single unit
 ### Attributes for Media
 * Control attribute to any media element
 | Attribute | Value | Description |
-|---|---|---|
+|:---|:---:|:---|
 |autoplay | autoplay | starts playing as soon as it is ready |
 
 ## id attribute

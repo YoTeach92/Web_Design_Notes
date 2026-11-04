@@ -60,3 +60,7 @@ Copyright = Intellectual Property (IP) rights reserved to the owner
 |CC BY-NC-SA (Attribution-NonCommercial-ShareAlike)|Share, remix, adapt, and build upon the work non-commercially|Must give credit and license derivative works under identical terms|
 |CC BY-NC-ND (Attribution-NonCommercial-NoDerivs)|Download and share the original work|Most restrictive license; no commercial use and no modifications or adaptations allowed|
 
+
+# Public Domain
+* Free to use for any purpose
+* Usually old works past their copyright

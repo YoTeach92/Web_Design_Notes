@@ -49,6 +49,8 @@ Copyright = Intellectual Property (IP) rights reserved to the owner
 6. CC BY-NC-ND (Attribution-NonCommercial-NoDerivs)
 	• What it allows: Download and share the original work.
 	• Requirement: Most restrictive license; no commercial use and no modifications or adaptations allowed.
+
+
 |Name|What It Allows|Requirement|
 |:--:|:---|:---|
 |CC BY (Attribution)|Share, remix, adapt, and build upon the work for any purpose, including commercial.|Must give appropriate credit to the creator.|

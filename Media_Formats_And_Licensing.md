@@ -64,3 +64,4 @@ Copyright = Intellectual Property (IP) rights reserved to the owner
 # Public Domain
 * Free to use for any purpose
 * Usually old works past their copyright
+* You can release a work to the public domain with a CC0 or Creative Commons 0 license

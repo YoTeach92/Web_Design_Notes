@@ -349,7 +349,24 @@ The `<figcaption>` element goes with it to add the text as a single unit
         | :--- | :---------------: | :----------- |
         |<img | src="path/to/file" | alt="alternative text"> |
 
-
+* video - video element
+    * Inside the Video **Open** Tag
+        * controls - adds controls
+        * loop - replays on finish
+        * autoplay - plays as soon as loaded
+        * width - width size in pixels
+        * height - height size in pixels
+        * poster - html source link to image to show while loading
+        * src - source link to file (usually no included here for video)
+        * muted - starts play with no sound
+    * source src="" listed in order with different formats.  Will play first file with a playable format
+* audio - audio element
+    * Inside the audio **Open** Tag
+        * controls - adds controls
+        * loop - replays on finish
+        * autoplay - plays as soon as loaded
+        * src - source link to file (usually **IS** included here for audio)
+        * muted - starts play with no sound
 
 * a - anchor element
     * href - hypertext reference: attribute of anchor element

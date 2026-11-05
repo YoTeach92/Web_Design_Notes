@@ -1,14 +1,16 @@
 # Media File Types
 
 ## Image Files
+### Raster Images (pixel based)
 * png = portable network graphic - lossless - needs to be scaled
 * jpg = joint photograph experts group - lossey - scales poorly
-* svg = scalable vector graphics - lossless - scales very well
-	 * perfect for icons
-	 * it is XML and math
 * webp = 
 * gif = graphics interchange format
 
+### Vector Images (math based)
+* svg = scalable vector graphics - lossless - scales very well
+	 * perfect for icons
+	 * it is XML and math
 
 ## Audio Files
 

@@ -3,9 +3,10 @@
 ## Image Files
 ### Raster Images (pixel based)
 * png = portable network graphic - lossless - needs to be scaled
-* jpg = joint photograph experts group - lossey - scales poorly
-* webp = 
+* jpg = joint photograph experts group - lossy - scales poorly
 * gif = graphics interchange format
+* webp = supports transparency, compression (lossless and lossy), animation
+
 
 ### Vector Images (math based)
 * svg = scalable vector graphics - lossless - scales very well

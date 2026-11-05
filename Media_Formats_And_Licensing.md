@@ -4,9 +4,8 @@
 * png = portable network graphic - lossless - needs to be scaled
 * jpg = joint photograph experts group - lossey - scales poorly
 * svg = scalable vector graphics - lossless - scales very well
-	* perfect for icons
- * 
- * 
+	 * perfect for icons
+	 * it is XML and math
 * webp = 
 * gif = graphics interchange format
 

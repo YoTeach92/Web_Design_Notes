@@ -296,8 +296,35 @@ The `<figcaption>` element goes with it to add the text as a single unit
 
 ## iFrame elements
 * Replaced elements have their content determined from outside (anything with an src for example)
+* iFrame stands for Inline Frame
+* An iFrame is like a small window inside your web page for a outside piece of online content
+    * The outside content (replaced element) loads its own HTML, CSS, and JS in your "little window" of the iFrame
+* Common Uses:
+    * Media players
+    * Interactive maps
+    * 3rd party widgets
+    * Advertising
+* Basic Syntax:
+```
+<iframe src="https://example.com" 
+        width="600" 
+        height="400" 
+        title="Description of content for accessibility"
+        loading="lazy">
+</iframe>
+```
+* Common Attributes:
+    * `src` The web address (URL) or local file path of the page you want to pull into the window.
+    * `width` & `height`  Defines the dimensions of the window frame in pixels or percentages. You can also control this more cleanly via CSS.
+    * `title`  Critical for web accessibility. Screen readers read this text out loud so visually impaired users know exactly what the frame contains.
+    * `loading="lazy"`  Improves performance by deferring the loading of the frame's content until the user scrolls near it
+* Security concerns
+    * `sandbox`  for security you need to limit the power of the outside content
+    * just using `sandbox` with no modifiers it locks down the embedded document completely (disabling forms, pop-ups, scripts, and same-origin cookies
+    * You can allow only what you want to run by adding "flags" or modifiers for example:
+          `sandbox="allow-scripts allow-forms"` 
 
-
+(-------------------------------------------)
 
 # Footer element
 `<footer>` stuff goes here `</footer>`

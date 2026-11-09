@@ -323,6 +323,11 @@ The `<figcaption>` element goes with it to add the text as a single unit
     * just using `sandbox` with no modifiers it locks down the embedded document completely (disabling forms, pop-ups, scripts, and same-origin cookies
     * You can allow only what you want to run by adding "flags" or modifiers for example:
           `sandbox="allow-scripts allow-forms"` 
+* iFrames with Video
+    * `allowfullscreen` allows full screen viewing
+    * `clipboard-write` allows the embedded page to write items to your clipboard
+    * `srcdoc ` if you want to embed direct HTML within the iframe element
+
 
 (-------------------------------------------)
 

@@ -327,6 +327,29 @@ The `<figcaption>` element goes with it to add the text as a single unit
     * `allowfullscreen` allows full screen viewing
     * `clipboard-write` allows the embedded page to write items to your clipboard
     * `srcdoc ` if you want to embed direct HTML within the iframe element
+* Allow Attributes
+* 
+|Directive|Description|
+|:---:|:---|
+|accelerometer	|Allows access to device motion sensors.|
+|ambient-light-sensor	|Allows detecting surrounding light levels.|
+|autoplay	|Allows media to play automatically without user interaction.|
+|battery	|Allows querying device battery status.|
+|camera	|Allows access to video input devices.|
+|display-capture	|Allows screen recording or casting via the Screen Capture API.|
+|encrypted-media	|Allows reading premium/DRM-protected media contents.|
+|fullscreen	|Replaces the legacy allowfullscreen attribute to permit fullscreen mode.|
+|geolocation	|Allows access to physical location coordinates via GPS/IP.|
+|gyroscope	|Allows tracking the device's physical rotation.|
+|magnetometer	|Allows device orientation tracking relative to the Earth's magnetic field.|
+|microphone	|Allows access to audio input devices.|
+|midi	|Allows interactions with musical instrument digital interfaces.|
+|payment	|Replaces the legacy allowpaymentrequest attribute to permit checkout APIs.|
+|picture-in-picture	|Allows popping videos out into a floating window.|
+|publickey-credentials-get	|Allows WebAuthn/Passkey authentication inside the iframe.|
+|usb	|Allows access to connected USB hardware.|
+|web-share	|Allows triggering the native device sharing dialog sheet.|
+|xr-spatial-tracking | Allows access to Virtual Reality (VR) and Augmented Reality (AR) spatial headsets.|
 
 
 (-------------------------------------------)

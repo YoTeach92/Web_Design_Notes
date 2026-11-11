@@ -328,7 +328,11 @@ The `<figcaption>` element goes with it to add the text as a single unit
     * `clipboard-write` allows the embedded page to write items to your clipboard
     * `srcdoc ` if you want to embed direct HTML within the iframe element
 * Allow Attributes
-    * Implicit Deny      
+    * Implicit Deny
+ 
+
+
+
 |Directive|Description|
 |:---:|:---|
 |accelerometer	|Allows access to device motion sensors.|

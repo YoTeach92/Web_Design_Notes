@@ -31,6 +31,10 @@
 **Elements:** An element is an individual component of a webpage with a start tag, optional attributes, content, and most often an end tag  \ *Void Elements* like `<img>`don't have an end tag
 
 **Attributes** A modifier placed *inside* an element (*between the opening and closing tags*) that configures behavior, appearance or gives extra information
+* disabled
+* readonly
+* required
+* etc
 
 
 ## Anchor Elements (hyperlinks the user will click on)
@@ -91,9 +95,11 @@ Inputs are also available to allow user input directly on the HTML
 <input type="checkbox" checked />
 ```
 
-Regular elements require an ending
+* Regular elements require an closing tag
 
-Void elements do NOT require an ending as they are discrete items already
+* **Void** elements do NOT require an ending as they are discrete items already
+    * They cannot have any content though (the stuff in between the opening and closing tags)
+
 
 
 # Link Element
@@ -449,7 +455,9 @@ The `<figcaption>` element goes with it to add the text as a single unit
 
 
 # List of elements we know:
-* img - img element
+* comment `<!--  -->` This makes a comment
+    * `<!-- Comment goes in the middle -->`
+* img - img element (is a void element no closing tag)
 * src - source element
     * alt - alt text (attribute of src element)
  

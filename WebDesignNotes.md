@@ -57,7 +57,7 @@ Use this chart to decide
 
 
 |Absolute|Relative|Use Case|
-|:....:|:....:|:....|
+|:---:|:---:|:---|
 | X | . |reference a source from a fixed location|
 | X | . |linking a resource hosed on an external site|
 | . | X |linking resources from the same site|

@@ -32,13 +32,30 @@
 
 **Attributes** A modifier placed *inside* an element (*between the opening and closing tags*) that configures behavior, appearance or gives extra information
 
-```html
+
+## Anchor Elements (hyperlinks the user will click on)
+The ` href ` attribute specifies the URL of a link and the ` target ` attribute specifies where to open the link.
+The ` <a> ` is the anchor element
+```
 <element attribute="value"></element>
 <a href="https://www.freecodecamp.org" target="_blank">Visit freeCodeCamp</a>
 ```
 
-The ` href ` attribute specifies the URL of a link and the ` target ` attribute specifies where to open the link.
-The ` <a> ` is the anchor element
+* link states to show hyperlinks unclicked, clicked, and hover over information
+* `:link` *default* this is an unclicked link (think blue by default)
+* `:visited` this is a clicked link (think purple by default)
+* `:hover` displays a message when the cursor (mouse) hovers over it
+* `:focus` applies color etc when tabbed onto
+* `:active` changes color when **actively** clicked
+
+* **ORDER YOU MUST FOLLOW**
+    <ol>
+        <li>`:link`</li>
+        <li>`:visited`</li>
+        <li>`:hover`</li>
+        <li>`:focus`</li>
+        <li>`active`</li>
+    </ol>
 
 ### Relative and Absolute Paths
 * **Absolute path** is a complete link to a resource from the root directory of your computer
@@ -55,7 +72,6 @@ The ` <a> ` is the anchor element
 #### When to Use Each
 Use this chart to decide
 
-
 |Absolute|Relative|Use Case|
 |:---:|:---:|:---|
 | X | . |reference a source from a fixed location|
@@ -64,7 +80,11 @@ Use this chart to decide
 | . | X |if you want to keep your code cleaner and easier to maintain as you deploy|
 | . | X |during local testing so links work without an internet connection|
 
-
+#### Symbols in Paths
+* `/` is a separator for folders (directories)
+    * could also be a `\` depending on the operating system of your host machine
+* `.` is the symbol for "inside the current directory"
+* `..` is the symbol for one step up or the directory of the current directory
 
 Inputs are also available to allow user input directly on the HTML
 ``` html

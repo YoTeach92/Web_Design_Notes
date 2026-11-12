@@ -56,12 +56,13 @@ The ` <a> ` is the anchor element
 
 
 |Absolute|Relative|Use Case|
-|:...:|:...:|:...|
-| X |   |reference a source from a fixed location|
-| X |   |linking a resource hosed on an external site|
-|   | X |linking resources from the same site|
-|   | X |if you want to keep your code cleaner and easier to maintain as you deploy|
-|   | X |during local testing so links work without an internet connmection|
+|:....:|:....:|:....|
+| X | . |reference a source from a fixed location|
+| X | . |linking a resource hosed on an external site|
+| . | X |linking resources from the same site|
+| . | X |if you want to keep your code cleaner and easier to maintain as you deploy|
+| . | X |during local testing so links work without an internet connection|
+
 
 
 Inputs are also available to allow user input directly on the HTML

@@ -54,6 +54,7 @@ The ` <a> ` is the anchor element
 
 #### When to Use Each:
 
+
 |Absolute|Relative|Use Case|
 |:...:|:...:|:...|
 | X |   |reference a source from a fixed location|

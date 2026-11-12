@@ -40,6 +40,28 @@
 The ` href ` attribute specifies the URL of a link and the ` target ` attribute specifies where to open the link.
 The ` <a> ` is the anchor element
 
+### Relative and Absolute Paths
+* **Absolute path** is a complete link to a resource from the root directory of your computer
+    `href="/Users/user/Desktop/fCC/script-code/absolute-vs-relative-paths/pages/about.html">About Page</a>`
+* Another example of an absolute path is a full URL
+    `<a href="https://design-style-guide.freecodecamp.org/img/fcc_secondary_small.svg">
+  View fCC Logo </a>`
+* An absolute URL from inside your computer must have the file protocol (as opposed to https)
+    `<a href="file:///Users/user/Desktop/fCC/script-code/absolute-vs-relative-paths/pages/about.html">About Page</a>`
+
+*  **Relative Path** is a path to a file *relative* to the directory you are currently in.
+    `<a href="about.html">About Page</a>`
+
+#### When to Use Each:
+
+|Absolute|Relative|Use Case|
+|:...:|:...:|:...|
+| X |   |reference a source from a fixed location|
+| X |   |linking a resource hosed on an external site|
+|   | X |linking resources from the same site|
+|   | X |if you want to keep your code cleaner and easier to maintain as you deploy|
+|   | X |during local testing so links work without an internet connmection|
+
 
 Inputs are also available to allow user input directly on the HTML
 ``` html
@@ -440,10 +462,11 @@ The `<figcaption>` element goes with it to add the text as a single unit
 * a - anchor element
     * href - hypertext reference: attribute of anchor element
     * target - attribute of anchor element, determines where hyperlink will open
-        * "_self" opens in the current browser tab
+        * "_self" opens in the current browser tab (DEFAULT)
         * "_blank" opens in a **new** browser tab or window
         * "_parent" opens in the parent context like inside of a frame or not (OR acts like _self)
         * "_top" opens the document in the full body of the window (breaks out of any frames)
+        * "_unfencedTop" experimental FencedFrame API
         ```
         html
         sample 1 text link:

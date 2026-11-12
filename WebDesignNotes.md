@@ -52,7 +52,8 @@ The ` <a> ` is the anchor element
 *  **Relative Path** is a path to a file *relative* to the directory you are currently in.
     `<a href="about.html">About Page</a>`
 
-#### When to Use Each:
+#### When to Use Each
+Use this chart to decide
 
 
 |Absolute|Relative|Use Case|

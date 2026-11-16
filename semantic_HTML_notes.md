@@ -58,4 +58,7 @@
 * `<em></em>` will make test *italicized*
 * This should be used to add meaning to the *text* rather than as a style decision
 * It can also be used to set apart a different language *s'il vous plaît* (if you please)
+* Another way is to do the following: `i lang="fr">je ne sais quoi</i>` which creates a small element with a different language
+* i element is an idiomatic expression element used to set apart words but **not** give them additional meaning
+  * That is the job of *emphasis* discussed above: `<em>`*important words*`</em>`
 * 

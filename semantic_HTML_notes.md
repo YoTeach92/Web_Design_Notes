@@ -53,4 +53,9 @@
       </nav>
     </header>
     ```
+
+### Use of Emphasis for Semantic Meaning
+* `<em></em>` will make test *italicized*
+* This should be used to add meaning to the *text* rather than as a style decision
+* It can also be used to set apart a different language *s'il vous plaît* (if you please)
 * 

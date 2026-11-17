@@ -136,4 +136,31 @@ CSS
 
 
 #### Abbreviation Element `<abbr></abbr>`
+* Terms like HTML (which is an acronym) need explaining behind the scenese
+* By itself `<abbr>` will identify that an acronym or abbreviation has been used
+* Along with `title` it will define its meaning
+```
+<p>
+ <abbr title="HyperText Markup Language">
+  HTML
+ </abbr>
+ is the foundation of the web
+</p>
+```
 
+#### Address Element `<address></address>`
+* Works like a div element but with semantic meaning and specific formatting
+* `<br>` or the line break element shows the division between the parts of the address
+* for phone numbers create an anchor element with the href starting with "tel:+" then the number
+* for email contact create an anchor element with the href starting with "mailto:" then the email
+```
+<address>
+  <h2>Company Name</h2>
+  <p>
+    1234 Elm Street<br />
+    Springfield, IL 62701<br />
+    United States
+  </p>
+  <p>Phone: <a href="tel:+15555555555">+1 (555) 555-5555</a></p>
+  <p>Email: <a href="mailto:contact@company.com">contact@company.com</a></p>
+</address>

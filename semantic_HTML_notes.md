@@ -80,9 +80,12 @@
 </dl>
 ```
 Output will look something like this: 
+
 HTML
+
     HyperText Markup Language
 
 CSS
+
     Cascading Style Sheets
 

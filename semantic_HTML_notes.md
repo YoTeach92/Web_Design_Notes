@@ -68,14 +68,21 @@
 
 ### Description Lists
 * Used like a term and definition pair and indents appropriately
-* <dl> Creates the Description List </dl>
+* `<dl>` Creates the Description List `</dl>`
+ * `<dt>` Is the description term `</dt>`
+ * `<dd>` Is the description definition and is indented automatically `</dd>`
 ```
 <dl>
   <dt>HTML</dt>
   <dd>HyperText Markup Language</dd>
   <dt>CSS</dt>
   <dd>Cascading Style Sheets</dd>
-  <!-- <dt>JS</dt>
-  <dd>JavaScript</dd> -->
 </dl>
 ```
+Output will look something like this: 
+HTML
+    HyperText Markup Language
+
+CSS
+    Cascading Style Sheets
+

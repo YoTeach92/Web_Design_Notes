@@ -55,10 +55,27 @@
     ```
 
 ### Use of Emphasis for Semantic Meaning
-* `<em></em>` will make test *italicized*
-* This should be used to add meaning to the *text* rather than as a style decision
-* It can also be used to set apart a different language *s'il vous plaît* (if you please)
+* `<em></em>` will make text *italicized*
+ * This should be used to add meaning to the *text* rather than as a style decision
+ * It can also be used to set apart a different language *s'il vous plaît* (if you please)
 * Another way is to do the following: `i lang="fr">je ne sais quoi</i>` which creates a small element with a different language
-* i element is an idiomatic expression element used to set apart words but **not** give them additional meaning
+ * i element is an idiomatic expression element used to set apart words but **not** give them additional meaning
   * That is the job of *emphasis* discussed above: `<em>`*important words*`</em>`
-* 
+
+### Use of B vs Strong
+* `<b></b>` is used to "*bring attention*" to text but does NOT demonstrate it's importance
+* `<strong></strong>` emphasizes the **importance** of the text
+
+### Description Lists
+* Used like a term and definition pair and indents appropriately
+* <dl> Creates the Description List </dl>
+```
+<dl>
+  <dt>HTML</dt>
+  <dd>HyperText Markup Language</dd>
+  <dt>CSS</dt>
+  <dd>Cascading Style Sheets</dd>
+  <!-- <dt>JS</dt>
+  <dd>JavaScript</dd> -->
+</dl>
+```

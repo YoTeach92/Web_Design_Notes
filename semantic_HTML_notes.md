@@ -92,6 +92,7 @@ CSS
 ```
 
 ### Quotations
+#### Block Quotes
 * Block quotes element is used to set apart a section quoted from another source
  * This is just like in your papers you write for school
 * `<blockquote>` Quotation from the source `</blockquote>`
@@ -106,6 +107,33 @@ CSS
     <p> you get the point </p>
    </blockquote>
   ```
+* If you want to show the citation you use `<cite></cite>` as its own element instead of an attribute of blockquote
+ * This works best within a div element or some other element to keep them together
 
 
+```
+<div>
+  <blockquote cite="https://www.freecodecamp.org/news/learn-to-code-book/">
+    Can you imagine what it would be like to be a successful developer? To have built software systems that people rely upon?
+  </blockquote>
+  <p>—Quincy Larson, <cite>How to Learn to Code and Get a Developer Job [Full Book].</cite></p>
+</div>
+```
+
+#### Inline Quotes
+* used for shorter quotes from sources within the paragraph.
+* `<q>` words from the source `</q>`
+* Just like blockquote, you can cite within the opening
+
+```
+<p>
+  As Quincy Larson said,
+  <q cite="https://www.freecodecamp.org/news/learn-to-code-book/">
+    Momentum is everything.
+  </q>
+</p>
+```
+
+
+#### Abbreviation Element `<abbr></abbr>`
 

@@ -81,11 +81,13 @@
 ```
 Output will look something like this: 
 
-`HTML`
+```
+HTML
 
-    `HyperText Markup Language`
+    HyperText Markup Language
 
-`CSS`
+CSS
 
-    `Cascading Style Sheets`
+    Cascading Style Sheets
+```
 

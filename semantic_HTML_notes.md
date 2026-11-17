@@ -79,7 +79,7 @@
   <dd>Cascading Style Sheets</dd>
 </dl>
 ```
-Output will look something like this: 
+* Output will look something like this: 
 
 ```
 HTML
@@ -90,4 +90,22 @@ CSS
 
     Cascading Style Sheets
 ```
+
+### Quotations
+* Block quotes element is used to set apart a section quoted from another source
+ * This is just like in your papers you write for school
+* `<blockquote>` Quotation from the source `</blockquote>`
+* If you have a url source you add it to the opening of the element with the `cite` attribute
+ * `<blockquote cite="https://www.website.com/path/to/quotation>` Quotation from the source `</blockquote>`
+* If you have multiple paragraphs to quote you simply use the `<p></p>` element for each paragraph
+
+  ```
+   <blockquote cite="https://www.website.com/path/to/quotation>
+    <p> Quotation from the source </p>
+    <p> More quotation </p>
+    <p> you get the point </p>
+   </blockquote>
+  ```
+
+
 

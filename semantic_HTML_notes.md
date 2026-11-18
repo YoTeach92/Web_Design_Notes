@@ -167,4 +167,16 @@ CSS
 ```
 
 
-#### Dates and Times
+#### Dates and Times `<time></time>`
+* Time element is used to represent time for display
+ * Operating solo it just alerts screen readers and gives semantic meaning to the text you input
+* `datetime` attribute shares the time value in a machine readable format
+ * must be a valid year, valid month, valid time, local date, global date, or valid duration string
+
+```
+<p>The reservations are for <time datetime="20:00">20:00 PM</time> </p>
+<p>The graduation will be on <time datetime="2024-06-15T15:00">June 15</time> </p>
+```
+
+
+

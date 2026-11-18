@@ -172,6 +172,13 @@ CSS
  * Operating solo it just alerts screen readers and gives semantic meaning to the text you input
 * `datetime` attribute shares the time value in a machine readable format
  * must be a valid year, valid month, valid time, local date, global date, or valid duration string
+ * ISO 8601 format. ISO 8601 is an international standard to represent dates and times.
+  * The first part of that value is the year, month and day. The capital T in the value is a separator between the date and time.
+  * `2025-11-18T08:53` or YYYY-MM-DD (T separator for time)
+|year|-|month|-|day|time separator|hour|:|minute|:|second|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|yyyy|-|mm|-|dd|t|hh|:|mm|:|ss|
+|2026|-|01|-|25|t|12|:|03|:|00|
 
 ```
 <p>The reservations are for <time datetime="20:00">20:00 PM</time> </p>
